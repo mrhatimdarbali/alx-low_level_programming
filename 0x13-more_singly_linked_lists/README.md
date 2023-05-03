@@ -44,20 +44,4 @@ In the following examples, the main.c files are shown as examples. You can use t
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called lists.h
 Don’t forget to push your header file
 All your header files should be include guarded
-More Info
-Please use this data structure for this project:
-
-/**
- * struct listint_s - singly linked list
- * @n: integer
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- * 
- */
-typedef struct listint_s
-{
-    int n;
-    struct listint_s *next;
-} listint_t;
 
